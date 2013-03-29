@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Microsoft.EIEC.Model.IEntity
+{
+    public interface IRuleQuery
+    {
+        int CalculationRuleQueryId { get; set; }
+
+        string QueryDescription { get; set; }
+    }
+}
